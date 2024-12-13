@@ -5,7 +5,7 @@ project(TP_POO)
 set(CMAKE_CXX_STANDARD 17)
 
 
-add_executable(Main.exe main.cpp Problem.cpp Equation.cpp UniformMesh.cpp Variable.cpp Upwind.cpp Timer.cpp)
+add_executable(Main.exe main.cpp src/Problem.cpp src/Equation.cpp src/UniformMesh.cpp src/Variable.cpp src/Upwind.cpp src/Timer.cpp)
 
 
 enable_testing()

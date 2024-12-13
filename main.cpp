@@ -1,10 +1,10 @@
 #include <memory>
 #include <thread>
-#include "IMesh.h"
-#include "UniformMesh.h"
-#include "Equation.h"
-#include "LaxWendroff.h"
-#include "Timer.h"
+#include "include/IMesh.hpp"
+#include "include/UniformMesh.hpp"
+#include "include/Equation.hpp"
+#include "include/LaxWendroff.hpp"
+#include "include/Timer.hpp"
 
 int main(int argc, char *argv[]) {
 
